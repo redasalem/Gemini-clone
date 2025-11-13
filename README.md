@@ -1,16 +1,57 @@
-# React + Vite
+# Gemini Clone - React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A clean and interactive clone of **Gemini Chat** built with **React.js** and **Tailwind CSS**, integrated with **Google Gemini API**. Deployed on **Netlify** for instant access.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## React Compiler
+- Interactive chat powered by **Google Gemini API**.
+- Responsive design using **Tailwind CSS**.
+- Smooth UI for mobile, tablet, and desktop.
+- SEO-friendly structure for better indexing.
+- Simple and clean interface for fast user interaction.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+##  Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **React.js** – Frontend library
+- **Tailwind CSS** – Styling
+- **Google Gemini API** – AI chat responses
+- **Netlify** – Deployment
+
+---
+
+## ⚙️ Installation
+
+1. Clone the repository:  
+```bash
+git clone https://github.com/yourusername/gemini-clone.git
+Install dependencies:
+
+bash
+نسخ الكود
+npm install
+Add your Google Gemini API key in a .env file:
+
+ini
+نسخ الكود
+REACT_APP_GEMINI_API_KEY=your_api_key
+Start the development server:
+
+bash
+نسخ الكود
+npm start
+Open http://localhost:3000 to view the app.
+
+ Demo
+Live demo hosted on Netlify: https://your-demo-link.netlify.app
+
+ License
+MIT License © 2025 Reda Salem
+
+This project is optimized for simplicity, responsiveness, and interactive AI experience with Gemini API.
+
+markdown
+نسخ الكود
